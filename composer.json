@@ -14,7 +14,7 @@
           "MySaasPackage\\Support\\": "tests/"
         },
         "files": [
-            "src/all.php"
+            "src/Functions/index.php"
         ]
     },
     "authors": [

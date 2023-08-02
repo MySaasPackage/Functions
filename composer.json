@@ -7,15 +7,15 @@
     "autoload": {
         "psr-4": {
             "MySaasPackage\\Support\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-          "MySaasPackage\\Support\\": "tests/"
         },
         "files": [
             "src/Functions/index.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "MySaasPackage\\Support\\": "tests/"
+        }
     },
     "authors": [
         {

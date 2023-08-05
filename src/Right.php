@@ -7,7 +7,7 @@ namespace MySaasPackage\Support;
 /**
  * @template T
  *
- * @implements Either<T>
+ * @implements Either<TLeft, T>
  */
 class Right implements Either
 {

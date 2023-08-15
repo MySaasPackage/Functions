@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MySaasPackage\Support;
+namespace MySaasPackage;
 
 use stdClass;
 use Exception;
@@ -10,11 +10,11 @@ use SplFileObject;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
-use function MySaasPackage\Support\Functions\left;
-use function MySaasPackage\Support\Functions\none;
-use function MySaasPackage\Support\Functions\some;
-use function MySaasPackage\Support\Functions\right;
-use function MySaasPackage\Support\Functions\ensure;
+use function MySaasPackage\Functions\left;
+use function MySaasPackage\Functions\none;
+use function MySaasPackage\Functions\some;
+use function MySaasPackage\Functions\right;
+use function MySaasPackage\Functions\ensure;
 
 class User
 {

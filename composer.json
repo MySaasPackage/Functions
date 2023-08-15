@@ -6,7 +6,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MySaasPackage\\Support\\": "src/"
+            "MySaasPackage\\": "src/"
         },
         "files": [
             "src/Functions/index.php"
@@ -14,7 +14,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-          "MySaasPackage\\Support\\": "tests/"
+          "MySaasPackage\\": "tests/"
         }
     },
     "authors": [

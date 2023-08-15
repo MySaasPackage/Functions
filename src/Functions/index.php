@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace MySaasPackage\Support\Functions;
+namespace MySaasPackage\Functions;
 
 use Throwable;
 use InvalidArgumentException;
-use MySaasPackage\Support\Left;
-use MySaasPackage\Support\Right;
-use MySaasPackage\Support\Option;
+use MySaasPackage\Left;
+use MySaasPackage\Right;
+use MySaasPackage\Option;
 
 /**
  * @template T
